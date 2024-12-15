@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Grey-medium:#212832;
+    --button-grey: #252f39;
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+
+body{
+    font-family: "Overpass", sans-serif;
+    background-color: var(--Very-Dark-Blue);
+}
+
+.welcome, .rating-card{
+    color: var(--White);
+    background-color: #1f2630;
+    padding: 2rem;
+    width: 450px;
+    height: auto;
+    margin: 150px auto;
+    border-radius: 20px;
+}
+.welcome{
+    display: block;
+}
+
+.star{
+    background-color: var(--button-grey);
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 1rem;
+    color: var(--Light-Grey);
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.values{
+    display: flex;
+    gap: 25px;
+}
+
+.value{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--button-grey);
+    color: var(--Light-Grey);
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.value:hover{
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+}
+
+.value:focus{
+    background-color: white;
+    color: var(--Very-Dark-Blue);
+}
+
+.submit{
+    width: 350px;
+    height: 40px;
+    background-color: var(--Orange);
+    letter-spacing: 2px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: white;
+    color: var(--Very-Dark-Blue);
+}
+
+
+.rating-card{
+    display: none;
+    width: 380px;
+    text-align: center;
+}
+
+.calif{
+    margin-bottom: 30px;
+}
+
+.note{
+    background-color: var(--button-grey);
+    color: var(--Orange);
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.text{
+    margin-bottom: 20px;
+}
+
+.description1{
+    font-size: 1rem;
+    color: var(--Light-Grey);
+    line-height: 25px;
+    margin-bottom: 20px;
+}
